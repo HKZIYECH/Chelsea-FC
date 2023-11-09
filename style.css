@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-sizing: border-box;    
+
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.chels{
+    color: blue;
+    font-family: "Poppins"
+}
+
+.palmer{
+    width: 200px
+}
+
+h2{
+    position: relative;
+    left: 250px;
+    bottom: 420px;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p{
+    position: relative;
+    left: 100px;
+    bottom: 420px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.card1{
+    border: 1px solid black;
+    width: 920px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.telegram{
+    background-color: rgb(85, 168, 227);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+    margin-right: 40px;
+}
+
+.telegram:hover{
+    
+    background-color: rgb(29, 153, 243);
+    border-color: black;
+}
+
+
+.instagram{
+    background-color: rgb(247, 84, 206);
+   
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+    margin-right: 40px;
+}
+
+
+.instagram:hover{
+    
+    background-color: rgb(182, 135, 227);
+    border-color: black;
+}
+.github{
+    background-color: rgb(23, 25, 24);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.github:hover{
+    
+    background-color: rgb(179, 179, 179);
+    border-color: black;
+}
+
+button{
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
